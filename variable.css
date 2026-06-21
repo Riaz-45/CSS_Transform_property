@@ -1,0 +1,20 @@
+:root{
+    --primary-color: skyblue;
+    --secondary-color: tomato;
+    --font-size: 20px;
+}
+
+h1{
+    color: var(--primary-color);
+}
+h5{
+    background-color: var(--primary-color);
+}
+.box{
+   border: 2px solid var(--secondary-color); 
+   width: calc(100% - 200px);
+}
+.box p{
+    color: var(--secondary-color);
+    font-size: var(--font-size);
+}
