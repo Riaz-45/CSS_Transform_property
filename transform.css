@@ -1,3 +1,6 @@
+body{
+    margin-left: 100px;
+}
 .container, .inner{
     width: 200px;
     height: 200px;
@@ -12,4 +15,16 @@
     color: white;
 
     /* transform: scale(0.75); for x-asix only*/
+    /* transform: scale(0.25, 0.5); for x and y both axis */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-45deg); */
+    transform: scale(0.5) rotate(45deg) translateX(150px); 
+    /* -->rotate hole rotate er dike x-axis borabor translate hobe */
+
+    /* transform: translateX(50px); */
+    /* transform: scale(0.5) translateX(100px); */
+
+}
+.inner:hover{
+    transform: translateY(100px) scale(0.5) rotate(45deg);
 }
