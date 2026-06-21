@@ -1,0 +1,15 @@
+.container, .inner{
+    width: 200px;
+    height: 200px;
+}
+.container{
+    border: 2px solid green;
+    background-color: plum;
+}
+.inner{
+    border: 2px solid red;
+    background-color: teal;
+    color: white;
+
+    /* transform: scale(0.75); for x-asix only*/
+}
